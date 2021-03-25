@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><project name="Nombre del proyecto" company="CIFP Ciudad Jardín LHII" webLink="http://" view-date="2020-10-01" view-index="0" gantt-divider-location="678" resource-divider-location="440" version="3.0.3004" locale="es_ES">
     <description/>
     <view zooming-state="default:9" id="gantt-chart">
-        <field id="tpd3" name="Nombre" width="370" order="0"/>
-        <field id="tpd4" name="Fecha de inicio" width="143" order="1"/>
-        <field id="tpd5" name="Fecha de fin" width="145" order="2"/>
+        <field id="tpd3" name="Nombre" width="376" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="148" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="151" order="2"/>
         <timeline>
             <![CDATA[0]]>
         </timeline>
@@ -41,53 +41,54 @@
             <taskproperty id="tpc0" name="Presupuesto" type="custom" valuetype="int"/>
             <taskproperty id="tpc2" name="" type="custom" valuetype="text"/>
         </taskproperties>
-        <task id="0" name="DISEÑO PROYECTO" color="#ff9999" meeting="false" start="2021-02-26" duration="16" complete="0" thirdDate="2021-02-26" thirdDate-constraint="0" expand="true" cost-manual-value="200.0" cost-calculated="true">
+        <task id="0" name="DISEÑO PROYECTO" color="#ff9999" meeting="false" start="2021-02-26" duration="16" complete="0" thirdDate="2021-02-26" thirdDate-constraint="0" expand="false" cost-manual-value="200.0" cost-calculated="true">
+            <depend id="2" type="2" difference="0" hardness="Strong"/>
             <customproperty taskproperty-id="tpc0" value="2"/>
             <task id="1" name="Memoria Proyecto (ACP)" color="#8cb6ce" meeting="false" start="2021-02-26" duration="16" complete="0" thirdDate="2019-02-22" thirdDate-constraint="0" expand="true" cost-manual-value="200.0" cost-calculated="false"/>
         </task>
-        <task id="2" name="PLANIFICACIÓN PROYECTO" color="#9999ff" meeting="false" start="2021-03-13" duration="14" complete="0" thirdDate="2021-03-13" thirdDate-constraint="1" expand="true" cost-manual-value="200.0" cost-calculated="false">
-            <task id="3" name="Memoria Proyecto (Plan Proyecto)" color="#cccccc" meeting="false" start="2021-03-13" duration="14" complete="0" thirdDate="2020-03-07" thirdDate-constraint="0" expand="true" cost-manual-value="200.0" cost-calculated="false"/>
+        <task id="2" name="PLANIFICACIÓN PROYECTO" color="#9999ff" meeting="false" start="2021-03-14" duration="14" complete="0" thirdDate="2021-03-13" thirdDate-constraint="1" expand="false" cost-manual-value="200.0" cost-calculated="false">
+            <task id="3" name="Memoria Proyecto (Plan Proyecto)" color="#cccccc" meeting="false" start="2021-03-14" duration="14" complete="0" thirdDate="2020-03-07" thirdDate-constraint="0" expand="true" cost-manual-value="200.0" cost-calculated="false"/>
         </task>
-        <task id="5" name="EJECUCIÓN Y SEGUIMIENTO PROYECTO" color="#ffcc99" meeting="false" start="2021-03-01" duration="78" complete="0" thirdDate="2021-03-01" thirdDate-constraint="1" expand="true" cost-manual-value="5120.0" cost-calculated="true">
-            <task id="6" name="Diseño y elaboración de  Base de Datos" color="#ffff99" meeting="false" start="2021-03-13" duration="3" complete="0" thirdDate="2021-03-13" thirdDate-constraint="1" expand="true" cost-manual-value="750.0" cost-calculated="false">
+        <task id="5" name="EJECUCIÓN Y SEGUIMIENTO PROYECTO" color="#ffcc99" meeting="false" start="2021-03-01" duration="78" complete="0" thirdDate="2021-03-01" thirdDate-constraint="1" expand="false" cost-manual-value="5120.0" cost-calculated="true">
+            <task id="6" name="Diseño y elaboración de  Base de Datos" color="#ffff99" meeting="false" start="2021-03-13" duration="3" complete="0" thirdDate="2021-03-13" thirdDate-constraint="1" expand="false" cost-manual-value="750.0" cost-calculated="false">
                 <task id="76" name="Diseño de tablas para BBDD" color="#ffff99" meeting="false" start="2021-03-13" duration="3" complete="0" thirdDate="2021-03-13" thirdDate-constraint="1" expand="true" cost-manual-value="10.0" cost-calculated="false"/>
                 <task id="77" name="Establecer relaciones entre tablas" color="#ffff99" meeting="false" start="2021-03-13" duration="3" complete="0" thirdDate="2021-03-13" thirdDate-constraint="1" expand="true" cost-manual-value="20.0" cost-calculated="false"/>
                 <task id="78" name="Elaboración de la BBDD en PHPMyAdmin" color="#ffff99" meeting="false" start="2021-03-13" duration="3" complete="0" thirdDate="2021-03-13" thirdDate-constraint="1" expand="true" cost-manual-value="10.0" cost-calculated="false"/>
             </task>
-            <task id="7" name="Diseño de Aplicación Web" color="#ffcc99" meeting="false" start="2021-03-01" duration="63" complete="0" thirdDate="2021-03-27" thirdDate-constraint="0" expand="true" cost-manual-value="200.0" cost-calculated="true">
+            <task id="7" name="Diseño de Aplicación Web" color="#ffcc99" meeting="false" start="2021-03-01" duration="63" complete="0" thirdDate="2021-03-27" thirdDate-constraint="0" expand="false" cost-manual-value="200.0" cost-calculated="true">
                 <task id="231" name="Diseño logo" color="#ffcc99" meeting="false" start="2021-03-01" duration="21" complete="0" thirdDate="2021-03-01" thirdDate-constraint="1" expand="true" cost-manual-value="20.0" cost-calculated="false"/>
                 <task id="84" name="Diseño del foro" color="#ffcc99" meeting="false" start="2021-03-26" duration="38" complete="0" thirdDate="2021-03-26" thirdDate-constraint="1" expand="true" cost-manual-value="60.0" cost-calculated="false"/>
                 <task id="85" name="Diseño de tienda virtual" color="#ffcc99" meeting="false" start="2021-03-26" duration="38" complete="0" thirdDate="2021-03-27" thirdDate-constraint="0" expand="true" cost-manual-value="20.0" cost-calculated="false"/>
             </task>
-            <task id="10" name="Programación Foro" color="#99ccff" meeting="false" start="2021-03-26" duration="36" complete="0" thirdDate="2021-03-27" thirdDate-constraint="0" expand="true" cost-manual-value="740.0" cost-calculated="true">
+            <task id="10" name="Programación Foro" color="#99ccff" meeting="false" start="2021-03-26" duration="36" complete="0" thirdDate="2021-03-27" thirdDate-constraint="0" expand="false" cost-manual-value="740.0" cost-calculated="true">
                 <task id="95" name="Programar el registro y login" color="#99ccff" meeting="false" start="2021-03-26" duration="8" complete="0" thirdDate="2021-03-26" thirdDate-constraint="1" expand="true" cost-manual-value="60.0" cost-calculated="false"/>
                 <task id="96" name="Programar el acceso  y creación de hilos" color="#99ccff" meeting="false" start="2021-04-02" duration="8" complete="0" thirdDate="2021-04-03" thirdDate-constraint="0" expand="true" cost-manual-value="40.0" cost-calculated="false"/>
                 <task id="191" name="Programar creación de mensajes" color="#99ccff" meeting="false" start="2021-04-09" duration="8" complete="0" thirdDate="2021-07-01" thirdDate-constraint="0" expand="true"/>
                 <task id="192" name="Programar mantenimiento de categorías, hilos y mensajes por el administrador" color="#99ccff" meeting="false" start="2021-04-16" duration="15" complete="0" thirdDate="2021-07-01" thirdDate-constraint="0" expand="true"/>
             </task>
-            <task id="194" name="Programación Tienda Virtual" color="#99ff99" meeting="false" start="2021-04-02" duration="29" complete="0" thirdDate="2021-07-01" thirdDate-constraint="0" expand="true">
+            <task id="194" name="Programación Tienda Virtual" color="#99ff99" meeting="false" start="2021-04-02" duration="29" complete="0" thirdDate="2021-07-01" thirdDate-constraint="0" expand="false">
                 <task id="195" name="Programar visualización de los productos" color="#99ff99" meeting="false" start="2021-04-02" duration="8" complete="0" thirdDate="2021-07-01" thirdDate-constraint="0" expand="true"/>
                 <task id="196" name="Programar mantenimiento productos por usuarios" color="#99ff99" meeting="false" start="2021-04-09" duration="8" complete="0" thirdDate="2021-07-01" thirdDate-constraint="0" expand="true"/>
                 <task id="199" name="Programar envío mensajes privados entre usuarios" color="#99ff99" meeting="false" start="2021-04-16" duration="15" complete="0" thirdDate="2021-07-01" thirdDate-constraint="0" expand="true"/>
             </task>
-            <task id="200" name="Comprobación de Errores" color="#9999ff" meeting="false" start="2021-03-26" duration="52" complete="0" thirdDate="2021-07-01" thirdDate-constraint="0" expand="true">
+            <task id="200" name="Comprobación de Errores" color="#9999ff" meeting="false" start="2021-03-26" duration="52" complete="0" thirdDate="2021-07-01" thirdDate-constraint="0" expand="false">
                 <task id="201" name="Comprobación errores en el foro" color="#9999ff" meeting="false" start="2021-03-26" duration="52" complete="0" thirdDate="2021-07-01" thirdDate-constraint="0" expand="true"/>
                 <task id="204" name="Comprobación errores en la tienda virtual" color="#9999ff" meeting="false" start="2021-03-26" duration="52" complete="0" thirdDate="2021-07-01" thirdDate-constraint="0" expand="true"/>
             </task>
-            <task id="11" name="Documentación Técnica Proyecto" color="#ff99cc" meeting="false" start="2021-03-26" duration="52" complete="0" thirdDate="2021-03-27" thirdDate-constraint="0" expand="true" cost-manual-value="1920.0" cost-calculated="true">
+            <task id="11" name="Documentación Técnica Proyecto" color="#ff99cc" meeting="false" start="2021-03-26" duration="52" complete="0" thirdDate="2021-03-27" thirdDate-constraint="0" expand="false" cost-manual-value="1920.0" cost-calculated="true">
                 <task id="12" name="Manual de implantación" color="#8cb6ce" meeting="false" start="2021-04-30" duration="17" complete="0" thirdDate="2021-03-28" thirdDate-constraint="0" expand="true" cost-manual-value="200.0" cost-calculated="false"/>
                 <task id="182" name="Manual de usuario" color="#8cb6ce" meeting="false" start="2021-04-30" duration="17" complete="0" thirdDate="2021-03-28" thirdDate-constraint="0" expand="true" cost-manual-value="230.0" cost-calculated="false"/>
                 <task id="14" name="Registro de pruebas" color="#8cb6ce" meeting="false" start="2021-03-26" duration="52" complete="0" thirdDate="2021-03-28" thirdDate-constraint="0" expand="true" cost-manual-value="400.0" cost-calculated="false"/>
             </task>
-            <task id="17" name="Seguimiento del proyecto" color="#99ff99" meeting="false" start="2021-03-26" duration="53" complete="0" thirdDate="2021-03-28" thirdDate-constraint="0" expand="true" cost-manual-value="1800.0" cost-calculated="false">
+            <task id="17" name="Seguimiento del proyecto" color="#99ff99" meeting="false" start="2021-03-26" duration="53" complete="0" thirdDate="2021-03-28" thirdDate-constraint="0" expand="false" cost-manual-value="1800.0" cost-calculated="false">
                 <task id="18" name="Seguimiento entre miembros del equipo" color="#8cb6ce" meeting="false" start="2021-03-26" duration="53" complete="0" thirdDate="2021-03-26" thirdDate-constraint="1" expand="true" cost-manual-value="720.0" cost-calculated="false"/>
                 <task id="20" name="Memoria Proyecto (Histórico)" color="#8cb6ce" meeting="false" start="2021-03-26" duration="52" complete="0" thirdDate="2021-03-26" thirdDate-constraint="1" expand="true" cost-manual-value="520.0" cost-calculated="false"/>
             </task>
         </task>
-        <task id="21" name="CIERRE PROYECTO" color="#ff99ff" meeting="false" start="2021-05-14" duration="8" complete="0" thirdDate="2021-05-14" thirdDate-constraint="0" expand="true" cost-manual-value="180.0" cost-calculated="true">
+        <task id="21" name="CIERRE PROYECTO" color="#ff99ff" meeting="false" start="2021-05-14" duration="8" complete="0" thirdDate="2021-05-14" thirdDate-constraint="0" expand="false" cost-manual-value="180.0" cost-calculated="true">
             <task id="22" name="Memoria Proyecto (Cierre)" color="#8cb6ce" meeting="false" start="2021-05-14" duration="8" complete="0" thirdDate="2020-02-28" thirdDate-constraint="0" expand="true" cost-manual-value="180.0" cost-calculated="false"/>
         </task>
-        <task id="23" name="PRESENTACIÓN PROYECTO" color="#ff9999" meeting="false" start="2021-05-14" duration="15" complete="0" thirdDate="2021-05-14" thirdDate-constraint="0" expand="true" cost-manual-value="300.0" cost-calculated="true">
+        <task id="23" name="PRESENTACIÓN PROYECTO" color="#ff9999" meeting="false" start="2021-05-14" duration="15" complete="0" thirdDate="2021-05-14" thirdDate-constraint="0" expand="false" cost-manual-value="300.0" cost-calculated="true">
             <task id="24" name="Organizar la presentación" color="#8cb6ce" meeting="false" start="2021-05-14" duration="7" complete="0" thirdDate="2019-05-10" thirdDate-constraint="0" expand="true" cost-manual-value="200.0" cost-calculated="false"/>
             <task id="25" name="Preparar material para realizar la presentación" color="#8cb6ce" meeting="false" start="2021-05-14" duration="14" complete="0" thirdDate="2019-05-17" thirdDate-constraint="0" expand="true" cost-manual-value="80.0" cost-calculated="false"/>
             <task id="26" name="Realizar la presentación" color="#8cb6ce" meeting="false" start="2021-05-21" duration="8" complete="0" thirdDate="2019-05-24" thirdDate-constraint="0" expand="true" cost-manual-value="20.0" cost-calculated="false"/>
@@ -96,35 +97,74 @@
     </tasks>
     <resources>
         <resource id="1" name="David Blanco" function="Default:0" contacts="" phone="">
-            <rate name="standard" value="15"/>
+            <rate name="standard" value="20"/>
         </resource>
         <resource id="2" name="Iker González" function="Default:0" contacts="" phone="">
-            <rate name="standard" value="15"/>
+            <rate name="standard" value="20"/>
         </resource>
         <resource id="4" name="Kevin Fernández" function="Default:0" contacts="" phone="">
-            <rate name="standard" value="15"/>
+            <rate name="standard" value="20"/>
         </resource>
-        <resource id="5" name="Recurso Material 1" function="Default:0" contacts="" phone="">
-            <rate name="standard" value="40"/>
+        <resource id="5" name="Portatil" function="Default:0" contacts="" phone="">
+            <rate name="standard" value="879"/>
         </resource>
-        <resource id="6" name="Recurso Material 2" function="Default:0" contacts="" phone="">
-            <rate name="standard" value="40"/>
+        <resource id="6" name="Portatil 2" function="Default:0" contacts="" phone="">
+            <rate name="standard" value="879"/>
         </resource>
-        <resource id="7" name="Recurso Material 3" function="Default:0" contacts="" phone="">
-            <rate name="standard" value="40"/>
+        <resource id="7" name="Portatil 3" function="Default:0" contacts="" phone="">
+            <rate name="standard" value="879"/>
+        </resource>
+        <resource id="8" name="Tableta Digital" function="Default:0" contacts="" phone="">
+            <rate name="standard" value="181"/>
+        </resource>
+        <resource id="9" name="Ordenador Clase" function="Default:0" contacts="" phone="">
+            <rate name="standard" value="922"/>
         </resource>
     </resources>
     <allocations>
         <allocation task-id="1" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="76" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="26" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
-        <allocation task-id="1" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="77" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="14" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="26" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="199" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="76" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="25" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="204" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="22" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="20" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="12" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="3" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="195" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="182" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="26" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
-        <allocation task-id="22" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="77" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="78" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="191" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="192" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="96" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="95" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="201" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="76" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="26" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="84" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
-        <allocation task-id="84" resource-id="5" function="Default:0" responsible="false" load="100.0"/>
-        <allocation task-id="76" resource-id="6" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="231" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="14" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="196" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="25" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="1" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="85" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="204" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="18" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="22" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="20" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="12" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="3" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="24" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="201" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="84" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="182" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
     </allocations>
     <vacations/>
     <previous/>
